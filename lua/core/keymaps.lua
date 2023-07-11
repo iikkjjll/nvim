@@ -32,3 +32,14 @@ vim.keymap.set('n', '<C-l>', '<C-w>l', {noremap = true, silent = true})
 vim.keymap.set('n', '<C-h>', '<C-w>h', {noremap = true, silent = true})
 vim.keymap.set('n', '<C-k>', '<C-w>k', {noremap = true, silent = true})
 vim.keymap.set('n', '<C-j>', '<C-w>j', {noremap = true, silent = true})
+
+
+
+
+-- https://www.reddit.com/r/vim/comments/2k4cbr/problem_with_gj_and_gk/
+vim.keymap.set("n", "j", [[v:count > 0 ? "m'" . v:count . "j" : 'gj']], { noremap = true, expr = true })
+vim.keymap.set("n", "k", [[v:count > 0 ? "m'" . v:count . "k" : 'gk']], { noremap = true, expr = true })
+
+
+
+

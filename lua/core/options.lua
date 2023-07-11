@@ -11,6 +11,7 @@ vim.o.timeoutlen = 1000
 vim.opt.swapfile = false
 
 vim.opt.scrolloff = 5
+vim.opt.sidescrolloff = 5
 
 vim.opt.clipboard = 'unnamedplus'
 -- vim.opt.clipboard:append("unnamedplus")
@@ -24,7 +25,7 @@ vim.opt.autoindent = true
 
 vim.opt.cursorline = true
 
-vim.opt.wrap = false
+vim.opt.wrap = true
 
 vim.opt.mouse:append("a")
 
