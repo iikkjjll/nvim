@@ -39,6 +39,7 @@ vim.keymap.set('n', '<leader><leader>h', '<C-w>v<C-W>h', {noremap = true, silent
 
 vim.keymap.set('n', '<leader>q', ':q<CR>', {noremap = true, silent = true})
 vim.keymap.set('n', '<leader>w', ':w<CR>', {noremap = true, silent = true})
+vim.keymap.set('n', '<leader>x', ':qall<CR>', {noremap = true, silent = true})
 
 vim.keymap.set('n', '<leader>;', ':nohlsearch<CR>', {noremap = true, silent = true})
 
