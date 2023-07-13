@@ -1,4 +1,6 @@
 return {
-	"RRethy/nvim-base16",
-	lazy = false,
+  "folke/tokyonight.nvim",
+  lazy = false,
+  priority = 1000,
+  opts = {},
 }

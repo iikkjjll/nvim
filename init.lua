@@ -6,4 +6,4 @@ require("core.autocmd")
 require("lazy_init")
 require("lazy").setup("plugins")
 
-vim.cmd.colorscheme("base16-tender")
+vim.cmd.colorscheme("tokyonight")
