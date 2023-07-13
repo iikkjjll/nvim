@@ -8,6 +8,11 @@ vim.keymap.set('n', 'n', 'nzz', {noremap = true, silent = true})
 vim.keymap.set('n', 'N', 'Nzz', {noremap = true, silent = true})
 
 
+-- nunmap J and nunmap K
+vim.keymap.set('n', 'J', '5gj', {noremap = true, silent = true})
+vim.keymap.set('n', 'K', '5gk', {noremap = true, silent = true})
+
+
 vim.keymap.set('v', 'J', ":m '>+1<CR>gv=gv", {noremap = true, silent = true})
 vim.keymap.set('v', 'K', ":m '>-2<CR>gv=gv", {noremap = true, silent = true})
 
