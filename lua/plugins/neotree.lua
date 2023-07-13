@@ -10,5 +10,7 @@ return {
 	},
 	keys = {
 		{"<leader>e", "<cmd>Neotree toggle<cr>", desc = "NeoTree"},
+		-- using <leader>h to focus NeoTree window.
+		-- {"<leader><leader>e", "<cmd>Neotree focus<cr>", desc = "Focus NeoTree"},
 	}
 }
