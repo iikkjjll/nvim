@@ -45,6 +45,8 @@ vim.keymap.set('n', '<leader>;', ':nohlsearch<CR>', {noremap = true, silent = tr
 
 
 vim.keymap.set('n', '<C-enter>', 'o<Esc>"9S<Esc>', {noremap = true, silent = true})
+vim.keymap.set('i', '<C-v>', '<C-R>+', {noremap = true, silent = true})
+
 
 
 
