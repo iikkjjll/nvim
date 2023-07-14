@@ -44,6 +44,7 @@ vim.keymap.set('n', '<leader>w', ':w<CR>', {noremap = true, silent = true})
 vim.keymap.set('n', '<leader>x', ':qall<CR>', {noremap = true, silent = true})
 
 vim.keymap.set('n', '<leader>;', ':nohlsearch<CR>', {noremap = true, silent = true})
+vim.keymap.set('n', '<leader>L', ':Lazy<CR>', {noremap = true, silent = true})
 
 
 vim.keymap.set('n', '<C-enter>', 'o<Esc>"9S<Esc>', {noremap = true, silent = true})
