@@ -15,6 +15,8 @@ vim.keymap.set('n', 'K', '3gk', {noremap = true, silent = true})
 
 vim.keymap.set('v', 'J', ":m '>+1<CR>gv=gv", {noremap = true, silent = true})
 vim.keymap.set('v', 'K', ":m '>-2<CR>gv=gv", {noremap = true, silent = true})
+-- vim.keymap.set('v', 'J', ":t '>+1<CR>gvd=gv", {noremap = true, silent = true})
+-- vim.keymap.set('v', 'K', ":t '<-2<CR>gvd=gv", {noremap = true, silent = true})
 
 
 vim.keymap.set('v', '>', ">gv", {noremap = true, silent = true})
