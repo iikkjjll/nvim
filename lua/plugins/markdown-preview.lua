@@ -28,8 +28,20 @@ return {
     vim.keymap.set('i', ',b', "**** <++><Esc>F*hi", {noremap = true, silent = true})
     vim.keymap.set('i', ',n', "---<CR>", {noremap = true, silent = true})
     vim.keymap.set('i', ',s', "~~~~ <++><Esc>F~hi", {noremap = true, silent = true})
+    vim.keymap.set('i', ',u', "<u></u><++><Esc>F/hi", {noremap = true, silent = true})
+    vim.keymap.set('i', ',a', "[](<++>) <++><Esc>F[a", {noremap = true, silent = true})
+    vim.keymap.set('i', ',p', "![](<++>) <Enter><++><Esc>kF[a", {noremap = true, silent = true})
+    vim.keymap.set('i', ',g', "- [ ] <Enter><++><ESC>kA", {noremap = true, silent = true})
+	vim.keymap.set('n', ',x', "/\\v\\%l\\[\\[ ]\\]<CR>:nohlsearch<CR><Esc>lrX", {noremap = true, silent = true})
     vim.keymap.set('i', ',d', "``<++><Esc>F`i", {noremap = true, silent = true})
     vim.keymap.set('i', ',c', "```<CR><++><CR>```<CR><++><Esc>kkkA", {noremap = true, silent = true})
+    vim.keymap.set('i', ',1', "#<Space><Enter><++><Esc>kA", {noremap = true, silent = true})
+    vim.keymap.set('i', ',2', "##<Space><Enter><++><Esc>kA", {noremap = true, silent = true})
+    vim.keymap.set('i', ',3', "###<Space><Enter><++><Esc>kA", {noremap = true, silent = true})
+    vim.keymap.set('i', ',4', "####<Space><Enter><++><Esc>kA", {noremap = true, silent = true})
+    vim.keymap.set('i', ',5', "#####<Space><Enter><++><Esc>kA", {noremap = true, silent = true})
+    vim.keymap.set('i', ',6', "######<Space><Enter><++><Esc>kA", {noremap = true, silent = true})
+    vim.keymap.set('i', ',t', "<C-R>=strftime('%Y-%m-%d %H:%M:%S')<CR>", {noremap = true, silent = true})
   end,
   -- keys = {
 	 --  {"<leader>r", "<cmd>MarkdownPreviewToggle<cr>", desc = "Toggle preview window in normal mode", mode = "n" },
