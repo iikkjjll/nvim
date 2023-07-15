@@ -10,8 +10,8 @@ vim.o.timeoutlen = 1000
 
 vim.opt.swapfile = false
 
-vim.opt.scrolloff = 5
-vim.opt.sidescrolloff = 5
+vim.opt.scrolloff = 13
+vim.opt.sidescrolloff = 13
 
 vim.opt.clipboard = 'unnamedplus'
 -- vim.opt.clipboard:append("unnamedplus")
