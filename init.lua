@@ -6,4 +6,9 @@ require("core.autocmd")
 require("lazy_init")
 require("lazy").setup("plugins")
 
-vim.cmd.colorscheme("tokyonight")
+-- 加载 colorscheme 目录下的插件配置文件
+-- require("lazy").load("plugins/colorscheme")
+-- require("lazy").load("plugins/markdown")
+
+vim.o.background = "dark"
+vim.cmd.colorscheme("gruvbox")
