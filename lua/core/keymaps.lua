@@ -49,6 +49,7 @@ vim.keymap.set('n', '<leader>L', ':Lazy<CR>', {noremap = true, silent = true})
 
 vim.keymap.set('n', '<C-enter>', 'o<Esc>"9S<Esc>', {noremap = true, silent = true})
 vim.keymap.set('i', '<C-v>', '<C-R>+', {noremap = true, silent = true})
+vim.keymap.set('n', 'yie', ':%yank<CR>', {noremap = true, silent = true})
 
 
 
