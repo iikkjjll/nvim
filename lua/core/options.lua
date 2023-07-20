@@ -1,10 +1,14 @@
 -- local o = vim.o
 -- local g = vim.g
 
+-- disable the default file Explore.
+vim.g.loaded_netrw       = 1
+vim.g.loaded_netrwPlugin = 1
+
+
 vim.o.number = true
 vim.o.relativenumber = true
 vim.o.timeoutlen = 1000
-
 
 
 
@@ -40,7 +44,7 @@ vim.opt.signcolumn = "yes"
 vim.opt.splitright = true
 vim.opt.splitbelow = true
 
-
+-- vim.opt.autochdir = true
 
 
 

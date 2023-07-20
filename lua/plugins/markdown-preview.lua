@@ -32,7 +32,7 @@ return {
     vim.keymap.set('i', ',a', "[](<++>) <++><Esc>F[a", {noremap = true, silent = true})
     vim.keymap.set('i', ',p', "![](<++>) <Enter><++><Esc>kF[a", {noremap = true, silent = true})
     vim.keymap.set('i', ',g', "- [ ] <Enter><++><ESC>kA", {noremap = true, silent = true})
-	vim.keymap.set('n', ',x', "/\\v\\%l\\[\\[ ]\\]<CR>:nohlsearch<CR><Esc>lrX", {noremap = true, silent = true})
+	-- vim.keymap.set('n', ',x', "/\%.l<CR>/[<CR>:nohlsearch<CR>lrX", {noremap = true, silent = true})
     vim.keymap.set('i', ',d', "``<++><Esc>F`i", {noremap = true, silent = true})
     vim.keymap.set('i', ',c', "```<CR><++><CR>```<CR><++><Esc>kkkA", {noremap = true, silent = true})
     vim.keymap.set('i', ',1', "#<Space><Enter><++><Esc>kA", {noremap = true, silent = true})
