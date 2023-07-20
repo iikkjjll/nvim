@@ -2,6 +2,7 @@ require("core.options")
 require("core.keymaps")
 require("core.autocmd")
 require("core.fcitx")
+-- require("core.debug").vim_structure()
 
 
 require("lazy_init")
@@ -13,3 +14,5 @@ require("lazy").setup("plugins")
 
 vim.o.background = "dark"
 vim.cmd.colorscheme("gruvbox")
+
+
