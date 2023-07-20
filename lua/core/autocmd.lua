@@ -7,3 +7,21 @@ vim.api.nvim_create_autocmd({ "TextYankPost" }, {
 		})
 	end,
 })
+
+-- 高亮Tab键，缩进，空格
+-- vim.highlight.create("DisplayTabAndSpace",{ctermbg = "red"}, false)
+-- vim.api.nvim_set_hl(0, "DisplayTabAndSpace", { bg = "red" })
+-- vim.api.nvim_create_autocmd({ "InsertEnter", "CursorMovedI" }, {
+--   pattern = { "*" },
+--   -- command = "match DisplayTabAndSpace  '/\%.l\%#\@<!\s\+$/'",
+--   callback = function()
+--      vim.cmd[[":match DisplayTabAndSpace /\%.l\%#\@<!\s\+$/"]]
+--   end,
+-- })
+-- vim.api.nvim_create_autocmd({"InsertLeave"}, {
+--   pattern = { "*" },
+--   callback = function()
+--     vim.fn.clearmatches()
+--   end,
+-- })
+
