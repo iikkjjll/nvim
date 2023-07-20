@@ -58,6 +58,14 @@ vim.keymap.set('n', 'yie', ':%yank<CR>', {noremap = true, silent = true})
 -- vim.keymap.set("n", "j", [[v:count > 0 ? "m'" . v:count . "j" : 'gj']], { noremap = true, expr = true })
 -- vim.keymap.set("n", "k", [[v:count > 0 ? "m'" . v:count . "k" : 'gk']], { noremap = true, expr = true })
 
-
-
+-- delete the vimwiki default global keybindings.
+-- vim.keymap.del("n", "<leader>ww", "<Plug>VimwikiIndex<CR>",{ noremap = false, silent = true })
+-- vim.keymap.del("n", "<leader>wt", "<Plug>VimwikiTabIndex<CR>",{ noremap = false, silent = true })
+-- vim.keymap.del("n", "<leader>ws", "<Plug>VimwikiUISelect<CR>",{ noremap = false, silent = true })
+-- vim.keymap.del("n", "<leader>wi", "<Plug>VimwikiDiaryIndex<CR>",{ noremap = false, silent = true })
+-- vim.keymap.del("n", "<leader>w<leader>w", "<Plug>VimwikiMakeDiaryNote<CR>",{ noremap = false, silent = true })
+-- vim.keymap.del("n", "<leader>w<leader>t", "<Plug>VimwikiTabMakeDiaryNote<CR>",{ noremap = false, silent = true })
+-- vim.keymap.del("n", "<leader>w<leader>y", "<Plug>VimwikiMakeYesterdayDiaryNote<CR>",{ noremap = false, silent = true })
+-- vim.keymap.del("n", "<leader>w<leader>m", "<Plug>VimwikiMakeTomorrowDiaryNote<CR>",{ noremap = false, silent = true })
+--
 
