@@ -37,7 +37,7 @@ vim.opt.exrc = true
 
 vim.opt.cursorline = true
 
-vim.opt.wrap = false
+vim.opt.wrap = true
 
 vim.opt.mouse:append("a")
 
