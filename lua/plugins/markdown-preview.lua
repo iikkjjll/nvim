@@ -41,7 +41,13 @@ return {
     vim.keymap.set('i', ',4', "####<Space>", {noremap = true, silent = true})
     vim.keymap.set('i', ',5', "#####<Space>", {noremap = true, silent = true})
     vim.keymap.set('i', ',6', "######<Space>", {noremap = true, silent = true})
-    vim.keymap.set('i', ',t', "<C-R>=strftime('%Y-%m-%d %H:%M:%S')<CR>", {noremap = true, silent = true})
+    vim.keymap.set('n', ',1', "0dt<Space><Esc>i#<Esc>", {noremap = true, silent = true})
+    vim.keymap.set('n', ',2', "0dt<Space><Esc>i##<Esc>", {noremap = true, silent = true})
+    vim.keymap.set('n', ',3', "0dt<Space><Esc>i###<Esc>", {noremap = true, silent = true})
+    vim.keymap.set('n', ',4', "0dt<Space><Esc>i####<Esc>", {noremap = true, silent = true})
+    vim.keymap.set('n', ',5', "0dt<Space><Esc>i#####<Esc>", {noremap = true, silent = true})
+    vim.keymap.set('n', ',6', "0dt<Space><Esc>i######<Esc>", {noremap = true, silent = true})
+    vim.keymap.set('n', ',t', "<C-R>=strftime('%Y-%m-%d %H:%M:%S')<CR>", {noremap = true, silent = true})
   end,
   -- keys = {
 	 --  {"<leader>r", "<cmd>MarkdownPreviewToggle<cr>", desc = "Toggle preview window in normal mode", mode = "n" },
