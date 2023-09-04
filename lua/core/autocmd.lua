@@ -25,3 +25,17 @@ vim.api.nvim_create_autocmd({ "TextYankPost" }, {
 --   end,
 -- })
 
+vim.api.nvim_create_autocmd({"BufRead"}, {
+	pattern = "*.md",
+	callback = function()
+		vim.cmd[[syn match markdownError "\w\@<=\w\@="]]
+	end,
+})
+
+
+
+
+
+
+
+
